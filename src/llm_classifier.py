@@ -81,10 +81,11 @@ def classify(description):
         except Exception as e:  
             print("Erreur API :", e)
             time.sleep(5)
-
-    cache[cle] = resultat
-    sauver_cache(cache)
-    time.sleep(1) 
+            
+    if resultat["cause"] != "Inconnu":
+        cache[cle] = resultat
+        sauver_cache(cache)
+    time.sleep(4.5)  # ~13 requêtes/minute, sous la limite de 15
     return resultat
 
 

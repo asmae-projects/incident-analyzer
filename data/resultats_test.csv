@@ -1,0 +1,61 @@
+description,vraie,ml,llm
+"Presse-01 : surchauffe du moteur, odeur de brûlé",Électrique,Électrique,Électrique
+Soudeuse-05 : procédure de démarrage non respectée,Procédure/Opérateur,Procédure/Opérateur,Procédure/Opérateur
+Perceuse-06 : pièces fournisseur hors tolérance,Qualité matière,Qualité matière,Qualité matière
+"Sertisseuse-02 : surchauffe du moteur, odeur de brûlé",Électrique,Électrique,Mécanique
+Convoyeur-4 : erreur de manipulation lors du changement de série,Procédure/Opérateur,Procédure/Opérateur,Procédure/Opérateur
+"Sertisseuse-02 : roulement bruyant, vibrations anormales",Mécanique,Mécanique,Mécanique
+Robot-03 : câble d'alimentation ectionné,Électrique,Électrique,Mécanique
+"Presse-01 stopped, courroie cassée",Mécanique,Mécanique,Mécanique
+"Convoyeur-04 : roulement bruyant, vibrations anormales",Mécanique,Mécanique,Mécanique
+"Perceuse-06 : surchauffe dumoteur, odeur de brûlé",Électrique,Électrique,Électrique
+Robot-03 : sensor non reconnu par le PLC,Logiciel/Automate,Logiciel/Automate,Logiciel/Automate
+"Soudeuse-05 : roulement bruyant, vibrations anormales",Mécanique,Mécanique,Mécanique
+"Convoyeur-04 sopped, courroie cassée",Mécanique,Mécanique,Mécanique
+"Soudeuse-05 : graissage non effectué, maintenance préventive en retard",Maintenance,Maintenance,Maintenance
+"Convoyeur-04  automate bloqué, erreur de programme",Logiciel/Automate,Logiciel/Automate,Logiciel/Automate
+"Sertissese-02 : graissage non effectué, maint. préventive en retard",Maintenance,Maintenance,Maintenance
+Presse-01 : lot de tôle avec dfaut d'épaisseur,Qualité matière,Qualité matière,Qualité matière
+Robot-03 : lot de tôle avec défaut d'épaisseur,Qualité matière,Qualité matière,Qualité matière
+"Sertisseuse-02 : filtre colmaté, nettoyage oublié",Maintenance,Maintenance,Maintenance
+Robot-03 : ctrl de début de poste oublié,Procédure/Opérateur,Procédure/Opérateur,Procédure/Opérateur
+"Robot-03 : moteur HS, disjoncteur déclenché",Électrique,Électrique,Électrique
+"Convoyeur-04 : écran HMI figé, recette introuvable",Logiciel/Automate,Logiciel/Automate,Logiciel/Automate
+"Soudeuse-05 : moteur HS, disjoncteur déclenché",Électrique,Électrique,Électrique
+Convoyeur-04 : lot de tôle avec défaut d'épaisseur,Qualité matière,Qualité matière,Qualité matière
+Convoyeur-04 : erreur de manipulation lors du changement de série,Procédure/Opérateur,Procédure/Opérateur,Procédure/Opérateur
+Presse-01 : câble d'alimentation sectionné,Mécanique,Électrique,Électrique
+Soudeuse-05 : pièces fournisseur hors tolérance,Qualité matière,Qualité matière,Qualité matière
+Sertisseuse-02 : câble d'alimentation sectionné,Maintenance,Électrique,Électrique
+Convoyeur-04 : câble d'alimentation sectionné,Électrique,Électrique,Mécanique
+Convoyeur-04 : câble d'alimentation sectionné,Électrique,Électrique,Mécanique
+Soudeuse-05 : défaut de communication avec le superviseur,Logiciel/Automate,Logiciel/Automate,Logiciel/Automate
+Robot-03 : procédre de démarrage non respectée,Procédure/Opérateur,Procédure/Opérateur,Procédure/Opérateur
+"Soudeuse-05 : roulement bruyant, vibrations anormales",Mécanique,Mécanique,Mécanique
+"Convoyeur-04 : écran HMI figé, recette introuvable",Logiciel/Automate,Logiciel/Automate,Logiciel/Automate
+"Presse-01 : coupure de courant, contacteur défectueux",Électrique,Électrique,Électrique
+Perceuse-06 : lot de tôle avec défaut d'épaisseur,Qualité matière,Qualité matière,Qualité matière
+"Robot-03 : fuite d'huile sur le vérin, pression basse",Mécanique,Mécanique,Mécanique
+"Convoyeur-04 : roulement bruyant, vibrations anormales",Mécanique,Mécanique,Mécanique
+Perceuse-06 : procédure de démarrage non respectée,Procédure/Opérateur,Procédure/Opérateur,Procédure/Opérateur
+Perceuse-06 : câble d'alimentation sectionné,Électrique,Électrique,Électrique
+"Presse-01 : sensor non reconnu par le PLC, graissage non effectué, maint. préventive en retard",Logiciel/Automate,Logiciel/Automate,Maintenance
+"Convoyeur-04 : automate bloqué, erreur de programme",Logiciel/Automate,Logiciel/Automate,Logiciel/Automate
+"Sertisseuse-02 : écran HMI figé, recette introuvable",Logiciel/Automate,Logiciel/Automate,Logiciel/Automate
+Soudeuse-05 : pièces fournisseur hors tolérance,Qualité matière,Qualité matière,Qualité matière
+Perceuse-06 : erreur de manipulation lors du changement de série,Procédure/Opérateur,Procédure/Opérateur,Procédure/Opérateur
+"Presse-01 : coupure de couran, contacteur défectueux",Électrique,Électrique,Électrique
+"Robot-03 : automate bloqué, erreur de programme",Logiciel/Automate,Logiciel/Automate,Logiciel/Automate
+Convoyeur-04 : câble d'alimentation sectionné,Électrique,Électrique,Mécanique
+"Robot-03 : axe grippé, mouvement bloqué",Mécanique,Mécanique,Mécanique
+"Presse-01 : automate bloqué, erreur de programme",Logiciel/Automate,Logiciel/Automate,Logiciel/Automate
+"Soudeuse-05 : axe grippé, mouvement bloqué",Mécanique,Mécanique,Mécanique
+"Robot-03 : fuite d'huile sur le vérin, pression basse",Mécanique,Mécanique,Mécanique
+"Soudeuse-05 : roulement bruyant, vibrations anormales",Mécanique,Mécanique,Mécanique
+Presse-01 : erreur de manipulation lors du changement de série,Procédure/Opérateur,Procédure/Opérateur,Procédure/Opérateur
+"Convoyeur-04 : coupure de courant, contacteur défectueux",Électrique,Électrique,Électrique
+"Sertisseuse-02 : surchauffe du moteur, odeur de brûlé",Électrique,Électrique,Mécanique
+Presse-01 : capteur non reconnu par le PLC,Logiciel/Automate,Logiciel/Automate,Logiciel/Automate
+"Presse-01 : matière humide, soudure de mauvaise qualité",Qualité matière,Qualité matière,Qualité matière
+Convoyeur-04 : mauvais réglage par l'op.,Procédure/Opérateur,Procédure/Opérateur,Procédure/Opérateur
+"Convoyeur-04 : filtre colmaté, nettoyage oublié",Maintenance,Maintenance,Maintenance
