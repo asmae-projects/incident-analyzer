@@ -14,7 +14,6 @@ from report import generer_rapport  # noqa: E402
 st.set_page_config(page_title="Analyseur d'incidents", layout="wide")
 st.title("Analyseur de rapports d'incidents industriels")
 
-# 1. Chargement du fichier
 fichier = st.file_uploader("Fichier Excel d'incidents", type="xlsx")
 if fichier is not None:
     df = pd.read_excel(fichier)
@@ -45,7 +44,7 @@ if "df_classe" not in st.session_state:
 data = st.session_state["df_classe"].copy()
 data["date"] = pd.to_datetime(data["date"])
 
-# 3. Filtres
+
 st.sidebar.header("Filtres")
 machines = st.sidebar.multiselect("Machine", sorted(data["machine"].unique()))
 lignes = st.sidebar.multiselect("Ligne", sorted(data["ligne"].unique()))
@@ -63,14 +62,14 @@ if len(periode) == 2:
     data = data[(data["date"].dt.date >= periode[0]) &
                 (data["date"].dt.date <= periode[1])]
 
-# 4. KPI
+
 c1, c2, c3 = st.columns(3)
 c1.metric("Incidents", len(data))
 c2.metric("Arrêt total (min)", int(data["duree_arret_min"].sum()))
 pct = (data["gravite"] == "Critique").mean() * 100 if len(data) else 0
 c3.metric("% critiques", f"{pct:.1f} %")
 
-# 5. Causes d'incidents
+
 pareto = data["cause"].value_counts().reset_index()
 pareto.columns = ["cause", "nombre"]
 
@@ -79,13 +78,13 @@ fig = px.bar(pareto, x="cause", y="nombre", title="Incidents par cause",
 fig.update_layout(xaxis_title=None, yaxis_title="Nombre d'incidents")
 st.plotly_chart(fig, use_container_width=True)
 
-# 6. Tableau des incidents classés
+
 st.subheader("Incidents classés")
 st.dataframe(data[["id", "date", "machine", "ligne", "description",
                    "duree_arret_min", "cause", "gravite", "action"]],
              use_container_width=True)
 
-# 7. Rapport Word
+
 if st.button("Générer le rapport Word"):
     chemin = RACINE / "data" / "rapport_incidents.docx"
     generer_rapport(data, chemin)
